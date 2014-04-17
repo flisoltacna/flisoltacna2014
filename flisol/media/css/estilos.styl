@@ -1,0 +1,361 @@
+* {
+	box-sizing: border-box;
+}
+
+body 
+	background-color #efefef
+	padding-top 364px 
+	@media screen and (max-width: 480px)
+		padding-top 0
+header
+	background-color #3f7d9a
+	text-align center
+	padding 60px 0 10px 0
+	position fixed
+	top 0
+	width 100%
+	z-index 0
+	background-image url('../imgs/fondo.jpg')
+	background-size cover
+	background-repeat no-repeat
+	background-position top center
+	@media screen and (max-width: 480px)
+		display none
+	figure
+		margin-bottom 30px
+	h1
+		font-family 'Droid Serif' serif
+		font-size 26px
+		color white
+		margin-bottom 5px
+		text-shadow 1px 2px 2px #464646
+	p 
+		color white
+		font-family 'Droid Serif' serif
+		font-size 26px
+		margin 0
+		text-shadow 1px 2px 2px #464646
+nav 
+	background-color white
+	padding 25px 0
+	box-shadow 0 2px 3px rgba(0,0,0, .4)
+	position relative
+	z-index 150
+	margin-bottom -70px
+	&.nav-scrolled
+		position fixed
+		top 0
+		width 100%
+	ul 
+		display inline-block
+		font-size 14px
+		margin 0 10px 0 0
+		padding 0
+		font-family 'Droid Sans' sans-serif
+		li 
+			margin 0 30px 0 0
+			padding 0
+			list-style none
+			display inline
+			@media screen and (max-width: 480px)
+				display none
+			a 
+				color #3f7d9a
+				text-decoration none
+			&:hover
+				border-bottom 1px solid #3f7d9a
+				padding-bottom 6px
+		a.flisol
+			display none
+			@media screen and (max-width: 480px)
+				display inline-block
+				margin-left 10px
+	a.inscribirse
+		color white
+		background-color #ff762f 
+		border-radius 5px
+		font-family 'Droid Serif' serif
+		font-size 16px
+		text-decoration none
+		padding 13px 13px
+		border-bottom 3px solid #c26c40
+		@media screen and (max-width: 480px)
+			display inline-block
+			margin-top 10px
+			vertical-align top
+		&:hover
+			background-color #ed8650
+			transition all 0.5s ease
+div.agrupado
+	background-color #efefef
+	position relative
+	//padding 100px 0px 0 0
+	section.que-es
+		h2 
+			color #5e5e5e
+			font-family 'Droid Serif' serif
+			font-size 26px
+			text-align center
+			padding-top 100px
+			margin-bottom 30px
+		p 
+			width 80%
+			margin 0 auto
+			margin-bottom 25px
+			text-align center
+			color #878787
+			font-family 'Droid Sans' sans-serif
+			font-size 14px
+			line-height 22px
+		div.frase
+			width 80%
+			margin 0 auto
+			vertical-align top
+			@media screen and (max-width: 480px)
+				width 100%
+			figure
+				display inline-block
+				@media screen and (max-width: 480px)
+					display block
+					margin 0 auto
+					text-align center
+			p 
+				display inline-block
+				font-style italic
+				position relative
+				@media screen and (max-width: 480px)
+					display block
+	section.actividades
+		h2 
+			color #5e5e5e
+			font-family 'Droid Serif' serif
+			font-size 26px
+			text-align center
+			margin-bottom 30px
+			padding-top 100px
+		div.actividades
+			text-align center
+			vertical-align top
+			div.actividad
+				margin-top 20px
+				width 33%
+				display inline-block
+				@media screen and (max-width: 480px)
+					display block
+					width 100%
+				div.descripcion
+					h3
+						color #5e5e5e	
+						font-family 'Droid Serif' serif
+						font-size 20px
+					p 
+						color #5e5e5e
+						font-size 14px
+						font-family 'Droid Sans' sans-serif
+						@media screen and (max-width: 480px)
+							width 90%
+							margin 0 auto
+	section.cronograma
+		h2
+			color #5e5e5e
+			font-family 'Droid Serif' serif
+			font-size 26px
+			text-align center
+			margin-bottom 30px
+			padding-top 100px
+		p 
+			background-color #3f7d9a
+			color white
+			font-family 'Droid Serif' serif
+			font-size 22px
+			padding 10px 0 10px 25px
+		div.cronograma-actividad
+			width 100%
+			border-bottom 1px solid #b9b9b9
+			margin-bottom 20px
+			padding-bottom 20px
+			div.hora
+				display inline-block
+				width 20%
+				padding 0 0 0 25px
+				font-family 'Droid Sans' sans-serif
+				font-size 16px
+				color #1f1f1f
+				vertical-align top
+				@media screen and (max-width: 480px)
+					width 100%
+			div.detalle
+				display inline-block	
+				width 79%
+				@media screen and (max-width: 480px)
+					width 100%
+					padding 0 0 0 25px
+				span 
+					display block
+					&.titulo
+						color #3f7d9a
+						font-family 'Droid Sans' sans-serif
+						font-size 16px
+						font-weight bold	
+					&.detalle
+						color #818181
+						margin-top 15px
+						font-size 14px	
+	#mapa
+		width 100%
+		height 450px
+	section.ubicacion
+		h2
+			color #5e5e5e
+			font-family 'Droid Serif' serif
+			font-size 26px
+			text-align center
+			margin-bottom 30px
+			padding-top 100px
+		p 
+			color #6f6f6f
+			font-family 'Droid Sans' sans-serif
+			font-size 14px
+			padding 10px 0 10px 25px
+			@media screen and (max-width: 480px)
+				width 95%
+				margin 0 auto
+				padding 10px 0
+	section.auspiciador
+		h2
+			color #5e5e5e
+			font-family 'Droid Serif' serif
+			font-size 26px
+			text-align center
+			margin-bottom 30px
+			padding-top 100px
+		p 
+			color #6f6f6f
+			font-family 'Droid Sans' sans-serif
+			font-size 14px
+			padding 10px 0 10px 25px
+			@media screen and (max-width: 480px)
+				padding 0
+				width 95%
+				margin 0 auto
+		div.empresas
+			margin-top 50px
+			figure
+				display inline-block
+				font-size 0
+				margin 0
+				padding 0
+				width 24.5%
+				@media screen and (max-width: 480px)
+					display block 
+					width 100%
+					text-align center
+				img 
+					font-size 0
+	footer
+		margin-top 100px
+		background-color black
+		padding 30px 0 20px 0
+		vertical-align top
+		figure
+			display inline-block
+		div.contenido
+			display inline-block
+			width 650px
+			vertical-align top
+			@media screen and (max-width: 480px)
+				width 100%
+			p 
+				margin 0 0 10px 0
+				padding 0
+				color #e8e8e8
+				font-family 'Droid Sans' sans-serif
+				font-size 12px
+				display inline-block
+				@media screen and (max-width: 480px)
+					width 95%
+					margin 0 auto
+				a
+					color #ff4100
+					text-decoration none
+	section.separar
+		border-bottom 1px solid #cccccc
+		text-align center
+		figure
+			position relative
+			top 32px
+			img 
+				background-color #efefef
+				padding 20px
+
+div.efectocomprar
+	position fixed
+	left 0
+	top 0
+	right 0
+	bottom 0
+	z-index 1000
+	display none
+	div.efecto
+		background rgba(0,0,0,0.6)
+		position fixed
+		top 0
+		bottom 0
+		right 0
+		left 0
+		cursor pointer
+		transition opacity 2s ease-in
+#form
+	background white
+	margin 200px auto
+	padding 20px
+	position relative
+	display block
+	width 320px
+	z-index 200
+	text-align center
+	border-radius 8px
+	color #757575
+	font-family 'Droid Sans' sans-serif
+	box-sizing border-box
+	@media screen and (max-width: 480px)
+		margin 50px auto 0 auto
+	h4 
+		text-transform uppercase
+		font-size 18px
+	p 
+		color #757575
+		font-size 14px
+	input[type="text"]
+		border-radius 4px 
+		display inline-block
+		border 2px solid #ff762f
+		width 100%
+		outline 0
+		padding 5px 13px
+		height 38px
+		line-height 34px
+		margin-bottom 10px
+		box-sizing border-box
+		font-size 14px
+	input[type="checkbox"]
+		margin-bottom 20px
+		margin-right 10px	
+		display inline-block
+	input[type="submit"]
+		background-color #ff762f
+		display inline-block
+		border 0
+		border-bottom 5px solid #de6224
+		color white
+		width 100%
+		outline 0
+		height 38px
+		line-height 34px
+		margin-bottom 10px
+		box-sizing border-box
+.centrar
+	width 1000px
+	margin 0 auto
+	@media screen and (max-width: 480px)
+		width 100%
