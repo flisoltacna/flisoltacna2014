@@ -465,3 +465,8 @@ div.efectocomprar div.efecto {
     width: 100%;
   }
 }
+
+div.empresas figure img {
+  width: 180px;
+  height: 100px;
+}
