@@ -265,7 +265,8 @@ div.agrupado section.cronograma div.cronograma-actividad div.detalle span.detall
   font-size: 14px;
 }
 div.agrupado #mapa {
-  width: 100%;
+  left: 12%;
+  width: 76%;
   height: 450px;
 }
 div.agrupado section.ubicacion h2 {
@@ -467,6 +468,6 @@ div.efectocomprar div.efecto {
 }
 
 div.empresas figure img {
-  width: 180px;
-  height: 100px;
+  width: 1000px;
+  height: 400px;
 }
